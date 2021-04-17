@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+ body{
+  background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/old-clock_NJEZARJVLT.jpg');
+  background-color: rgb(153, 138, 116);
+}
+
+.input-bar {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+input[type='number'] {
+  height: 50px;
+  width: 600px;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border: none;
+  border-radius: 2px;
+}
+
+input[type='submit'] {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(153, 150, 150);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border: none;
+  border-radius: 2px;
+}
+input[type='submit']:hover {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(92, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border: none;
+  border-radius: 2px;
+}
+
+.header {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 23px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: rgb(153, 138, 116);
+  color: rgba(59, 54, 44, 0.616);
+}
+
+.header .explain {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 21px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 30px 70px;
+
+}
+
+.arabic {
+  width: 40%;
+  height: 250px;
+  color: white;
+  background-color: rgb(153, 150, 150);
+  font-size: 30px;
+}
+
+.roman {
+  width: 40%;
+  height: 250px;
+  color: white;
+  background-color: rgb(92, 49, 49);
+  font-size: 30px;
+}
